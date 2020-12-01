@@ -1,0 +1,34 @@
+-- create database db_funcionario
+
+-- use db_funcionario;
+-- create table tb_funcionarios (
+-- id bigint auto_increment,
+-- nome varchar (100) not null,
+-- idade int,
+-- tempodecasa int,
+-- salario float,
+-- ativo boolean,
+
+-- primary key(id) )
+-- select * from tb_funcionarios
+-- insert into tb_funcionarios (nome, idade, tempodecasa, salario, ativo) value ("Leonardo", 26, 3, 6300, true)
+-- insert into tb_funcionarios (nome, idade, tempodecasa, salario, ativo) value ("Isabella", 25, 2, 3300, true);
+-- insert into tb_funcionarios (nome, idade, tempodecasa, salario, ativo) value ("Ribamar", 32, 4, 4300, true);
+-- insert into tb_funcionarios (nome, idade, tempodecasa, salario, ativo) value ("Clara", 26, 3, 6300, true);
+-- insert into tb_funcionarios (nome, idade, tempodecasa, salario, ativo) value ("Ronaldo", 21, 2, 2100, true);
+-- insert into tb_funcionarios (nome, idade, tempodecasa, salario, ativo) value ("Raphale", 20, 2, 2300, true);
+-- insert into tb_funcionarios (nome, idade, tempodecasa, salario, ativo) value ("Marco", 38, 6, 4300, true);
+-- insert into tb_funcionarios (nome, idade, tempodecasa, salario, ativo) value ("Sri Prem", 56, 9, 6300, true);
+-- insert into tb_funcionarios (nome, idade, tempodecasa, salario, ativo) value ("Isabel", 46, 13, 12300, true);
+-- insert into tb_funcionarios (nome, idade, tempodecasa, salario, ativo) value ("Larissa", 26, 7, 7300, true);
+-- insert into tb_funcionarios (nome, idade, tempodecasa, salario, ativo) value ("Geromel", 26, 6, 5300, true);
+-- insert into tb_funcionarios (nome, idade, tempodecasa, salario, ativo) value ("Marcia", 26, 4, 6500, true);
+-- insert into tb_funcionarios (nome, idade, tempodecasa, salario, ativo) value ("Romildo", 22, 2, 3300, true);
+-- insert into tb_funcionarios (nome, idade, tempodecasa, salario, ativo) value ("Cristiano", 16, 1, 2300, true);
+-- insert into tb_funcionarios (nome, idade, tempodecasa, salario, ativo) value ("Juliana", 36, 10, 4300, true);
+-- select * from tb_funcionarios
+-- select * from tb_funcionarios where salario > 2000
+-- select * from tb_funcionarios where salario < 2000
+-- update tb_funcionarios set tempodecasa = 3 where id = 2
+-- delete from tb_funcionarios where id = 1
+-- select * from tb_funcionarios
